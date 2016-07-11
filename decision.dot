@@ -1,0 +1,15 @@
+digraph BST {
+0 [label=OUTLOOK,color=black];
+0 -> 799[label=SUNNY,color=green];
+0 -> 1[label=RAINY,color=blue];
+799 [label=YES,color=red];
+1 [label=HUMIDITY,color=black];
+1 -> 800[label=NORMAL,color=green];
+1 -> 2[label=HIGH,color=blue];
+800 [label=YES,color=red];
+2 [label=WIND,color=black];
+2 -> 801[label=WEAK,color=green];
+2 -> 999[label=STRONG,color=blue];
+801 [label=YES,color=red];
+999 [label=NO,color=red];
+}
